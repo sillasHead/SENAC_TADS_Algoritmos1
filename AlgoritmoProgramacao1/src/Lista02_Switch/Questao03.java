@@ -46,5 +46,7 @@ public class Questao03 {
 			valor -= qtd * 1;
 			System.out.println(qtd + " nota(s) de R$ 1.");
 		}
+		
+		in.close();
 	}
 }

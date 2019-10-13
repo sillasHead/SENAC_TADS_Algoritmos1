@@ -19,7 +19,7 @@ public class Questao06 {
 			break;
 
 		case 3:
-			System.out.println("TerÁa-Feira -> Dia de semana");
+			System.out.println("Ter√ßa-Feira -> Dia de semana");
 			break;
 
 		case 4:
@@ -35,11 +35,13 @@ public class Questao06 {
 			break;
 
 		case 7:
-			System.out.println("S·bado - Fim de semana");
+			System.out.println("S√°bado - Fim de semana");
 			break;
 
 		default:
-			System.out.println("Dia inv·lido");
+			System.out.println("Dia inv√°lido");
 		}
+		
+		in.close();
 	}
 }

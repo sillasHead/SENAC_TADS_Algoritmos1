@@ -13,7 +13,7 @@ public class Questao16 {
 		double horaFinal = in.nextDouble();
 
 		if (horaInicial > 24 || horaInicial < 0 || horaFinal > 24 || horaFinal < 0)
-			System.out.print("OS VALORES INSERIDOS SÃO INVÁLIDOS");
+			System.out.print("OS VALORES INSERIDOS SÃƒO INVÃLIDOS");
 
 		else {
 			if (horaFinal <= horaInicial) {
@@ -22,5 +22,7 @@ public class Questao16 {
 				System.out.println("O JOGO DUROU " + (horaFinal - horaInicial) + " HORA(S)");
 			}
 		}
+		
+		in.close();
 	}
 }

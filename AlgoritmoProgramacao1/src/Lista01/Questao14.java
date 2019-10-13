@@ -7,21 +7,23 @@ public class Questao14 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.print("1º Número: ");
+		System.out.print("1Âº NÃºmero: ");
 		double n1 = in.nextDouble();
 
-		System.out.print("2º Número: ");
+		System.out.print("2Âº NÃºmero: ");
 		double n2 = in.nextDouble();
 
 		if (n1 == 0 || n2 == 0)
-			System.out.print(ls + "Não é possível efetuar essa divisão");
+			System.out.print(ls + "NÃ£o Ã© possÃ­vel efetuar essa divisÃ£o");
 
 		else if (n1 != n2)
-			System.out.print(ls + Math.max(n1, n2) + " ÷ " + Math.min(n1, n2) + " = " + Math.max(n1, n2) / Math.min(n1, n2));
+			System.out.print(ls + Math.max(n1, n2) + " Ã· " + Math.min(n1, n2) + " = " + Math.max(n1, n2) / Math.min(n1, n2));
 
 		else {
-			System.out.print(ls + "Os números são iguais...");
-			System.out.print(ls + Math.max(n1, n2) + " ÷ " + Math.min(n1, n2) + " = " + Math.max(n1, n2) / Math.min(n1, n2));
+			System.out.print(ls + "Os nÃºmeros sÃ£o iguais...");
+			System.out.print(ls + Math.max(n1, n2) + " Ã· " + Math.min(n1, n2) + " = " + Math.max(n1, n2) / Math.min(n1, n2));
 		}
+		
+		in.close();
 	}
 }

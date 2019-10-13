@@ -7,9 +7,9 @@ public class Questao09 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 		
-		System.out.println("Para calcular o sal·rio do funcion·rio, insira as seguintes informaÁıes:" + ls);
+		System.out.println("Para calcular o sal√°rio do funcion√°rio, insira as seguintes informa√ß√µes:" + ls);
 		
-		System.out.print("N˙mero de cadastro do funcion·rio: ");
+		System.out.print("N√∫mero de cadastro do funcion√°rio: ");
 		String cadastro = in.next();
 		
 		System.out.print("Quantidade de horas trabalhadas: ");
@@ -18,7 +18,9 @@ public class Questao09 {
 		System.out.print("Valor recebido por hora trabalhada: R$");
 		double valorHora = in.nextDouble();
 		
-		System.out.println(ls + "N˙mero de cadastro do funcion·rio: " + cadastro);
-		System.out.println("Sal·rio desse funcion·rio: R$" + String.format("%.2f", horasTrabalhadas*valorHora));		
+		System.out.println(ls + "N√∫mero de cadastro do funcion√°rio: " + cadastro);
+		System.out.println("Sal√°rio desse funcion√°rio: R$" + String.format("%.2f", horasTrabalhadas*valorHora));		
+		
+		in.close();
 	}
 }

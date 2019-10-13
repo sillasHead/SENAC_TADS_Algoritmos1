@@ -7,7 +7,7 @@ public class Questao13 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.print("Insira três números" + ls + "n1: ");
+		System.out.print("Insira trÃªs nÃºmeros" + ls + "n1: ");
 		double n1 = in.nextDouble();
 
 		System.out.print("n2: ");
@@ -16,6 +16,8 @@ public class Questao13 {
 		System.out.print("n3: ");
 		double n3 = in.nextDouble();
 
-		System.out.println("O maior valor inserido é o " + Math.max(Math.max(n1, n2), n3));
+		System.out.println("O maior valor inserido Ã© o " + Math.max(Math.max(n1, n2), n3));
+		
+		in.close();
 	}
 }

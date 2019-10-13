@@ -8,7 +8,7 @@ public class Questao06 {
 		String ls = System.getProperty("line.separator");
 		final double pi = 3.14159;
 		
-		System.out.println("Insira três valores");
+		System.out.println("Insira trÃªs valores");
 		
 		System.out.print("A: ");
 		double a = in.nextDouble();
@@ -19,11 +19,13 @@ public class Questao06 {
 		System.out.print("C: ");
 		double c = in.nextDouble();
 		
-		System.out.println(ls + "Área do triângulo retângulo: " + a*c/2);
-		System.out.println("Área do círculo: " + c*c*pi);
-		System.out.println("Área do trapézio: " + (a+b)*c/2);
-		System.out.println("Área do quadrado: " + b*b);
-		System.out.println("Área do retângulo: " + a*b);
-		System.out.println("Perímetro do retângulo: " + (a*2 + b*2));
+		System.out.println(ls + "Ã¡rea do triÃ¢ngulo retÃ¢ngulo: " + a*c/2);
+		System.out.println("Ã¡rea do cÃ­rculo: " + c*c*pi);
+		System.out.println("Ã¡rea do trapÃ©zio: " + (a+b)*c/2);
+		System.out.println("Ã¡rea do quadrado: " + b*b);
+		System.out.println("Ã¡rea do retÃ¢ngulo: " + a*b);
+		System.out.println("PerÃ­metro do retÃ¢ngulo: " + (a*2 + b*2));
+		
+		in.close();
 	}
 }

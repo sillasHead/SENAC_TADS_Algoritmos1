@@ -7,7 +7,9 @@ public class Questao04 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.println("Insira dois números inteiros e obtenha os consecutivos desses números logo após.");
+		System.out.println("Insira dois nÃºmeros inteiros e obtenha os consecutivos desses nÃºmeros logo apÃ³s.");
 		System.out.print(ls + (in.nextInt() + 1) + ls + (in.nextInt() + 1));
+
+		in.close();
 	}
 }

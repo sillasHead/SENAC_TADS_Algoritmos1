@@ -8,7 +8,7 @@ public class Questao04 {
 
 		int mes, ano, qtdDias;
 
-		System.out.print("Mês: ");
+		System.out.print("MÃªs: ");
 		mes = in.nextInt();
 		System.out.print("Ano: ");
 		ano = in.nextInt();
@@ -44,22 +44,24 @@ public class Questao04 {
 		case 8:
 		case 10:
 		case 12:
-			System.out.print("Esse mês tem 31 dias");
+			System.out.print("Esse mÃªs tem 31 dias");
 			break;
 
 		case 4:
 		case 6:
 		case 9:
 		case 11:
-			System.out.print("Esse mês tem 30 dias");
+			System.out.print("Esse mÃªs tem 30 dias");
 			break;
 
 		case 2:
-			System.out.print("Esse mês tem " + qtdDias + " dias");
+			System.out.print("Esse mÃªs tem " + qtdDias + " dias");
 			break;
 
 		default:
-			System.out.print("Dados inválidos");
+			System.out.print("Dados invÃ¡lidos");
 		}
+		
+		in.close();
 	}
 }

@@ -39,5 +39,7 @@ public class Questao07 {
 				}
 			}
 		}
+		
+		in.close();
 	}
 }

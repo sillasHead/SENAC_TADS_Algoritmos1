@@ -7,7 +7,7 @@ public class Questao15 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.print("ax² + bx + c = 0" + ls + ls + "a = ");
+		System.out.print("axÂ² + bx + c = 0" + ls + ls + "a = ");
 		double a = in.nextDouble();
 
 		System.out.print("b = ");
@@ -22,11 +22,13 @@ public class Questao15 {
 		double x2 = (-b - Math.sqrt(delta)) / 2 * a;
 
 		if (a == 0 || delta < 0) {
-			System.out.println(ls + "Impossível calcular");
+			System.out.println(ls + "ImpossÃ­vel calcular");
 		} else {
-			System.out.println(ls + "(" + a + ")" + "x² + " + "(" + b + ")" + "x + " + "(" + c + ")" + " = 0" + ls);
-			System.out.println("x¹ = " + x1);
-			System.out.println("x² = " + x2);
+			System.out.println(ls + "(" + a + ")" + "xÂ² + " + "(" + b + ")" + "x + " + "(" + c + ")" + " = 0" + ls);
+			System.out.println("x' = " + x1);
+			System.out.println("x\" = " + x2);
 		}
+		
+		in.close();
 	}
 }

@@ -18,6 +18,8 @@ public class Questao05 {
 		
 		double l = in.nextDouble();						 
 		
-		System.out.println(ls + "A área desse quadrado é igual a " + l*l);
+		System.out.println(ls + "A Ã¡rea desse quadrado Ã© igual a " + l*l);
+
+		in.close();
 	}
 }

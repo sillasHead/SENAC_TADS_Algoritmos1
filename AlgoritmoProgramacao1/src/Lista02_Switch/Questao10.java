@@ -7,17 +7,17 @@ public class Questao10 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.print("1º número: ");
+		System.out.print("1Âº nÃºmero: ");
 		double n1 = in.nextDouble();
 
-		System.out.print("2º número: ");
+		System.out.print("2Âº nÃºmero: ");
 		double n2 = in.nextDouble();
 
-		System.out.println("Escolha uma das operações:" + ls);
+		System.out.println("Escolha uma das operaÃ§Ãµes:" + ls);
 		System.out.println("< + > ");
 		System.out.println("< - > ");
 		System.out.println("< * > ");
-		System.out.print("< / > " + ls + ls + "Operaçao: ");
+		System.out.print("< / > " + ls + ls + "OperaÃ§Ã£o: ");
 		String operacao = in.next();
 
 		switch (operacao) {
@@ -34,11 +34,13 @@ public class Questao10 {
 			break;
 
 		case "/":
-			System.out.print(ls + n1 + " ÷ " + n2 + " = " + (n1 / n2));
+			System.out.print(ls + n1 + " Âº " + n2 + " = " + (n1 / n2));
 			break;
 
 		default:
-			System.out.print(ls + "Operação inválida");
+			System.out.print(ls + "OperaÃ§Ã£o invÃ¡lida");
 		}
+		
+		in.close();
 	}
 }

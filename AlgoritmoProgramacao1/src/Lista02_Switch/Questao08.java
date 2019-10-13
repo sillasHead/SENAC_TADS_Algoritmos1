@@ -11,7 +11,7 @@ public class Questao08 {
 		System.out.print("Valor da multa: R$ ");
 		valorInicial = in.nextDouble();
 
-		System.out.print("Mês do pagamento: ");
+		System.out.print("MÃªs do pagamento: ");
 		String mes = in.next().toLowerCase();
 		juros = 1.05;
 
@@ -27,7 +27,7 @@ public class Questao08 {
 			System.out.printf("Valor total a ser pago: R$" + "%.2f", valorInicial);
 			break;
 
-		case "março":
+		case "marÃ§o":
 		case "3":
 			valorInicial *= Math.pow(juros, 2);
 			System.out.printf("Valor total a ser pago: R$" + "%.2f", valorInicial);
@@ -88,7 +88,9 @@ public class Questao08 {
 			break;
 
 		default:
-			System.out.print("Mês inválido");
+			System.out.print("MÃªs invÃ¡lido");
 		}
+		
+		in.close();
 	}
 }

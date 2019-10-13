@@ -7,7 +7,7 @@ public class Questao18 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.print("INFORME OS VALORES DE CADA LADO DO TRIÂNGULO" + ls + "A = ");
+		System.out.print("INFORME OS VALORES DE CADA LADO DO TRIÃ‚NGULO" + ls + "A = ");
 		double a = in.nextDouble();
 
 		System.out.print("B = ");
@@ -27,23 +27,25 @@ public class Questao18 {
 		}
 
 		if (a >= b + c) {
-			System.out.println("NÃO FORMA TRIÂNGULO");
+			System.out.println("NÃƒO FORMA TRIÃ‚NGULO");
 
 		} else {
 			if (a * a == b * b + c * c)
-				System.out.println("TRIÂNGULO RETÂNGULO");
+				System.out.println("TRIÃ‚NGULO RETÃ‚NGULO");
 
 			else if (a * a > b * b + c * c)
-				System.out.println("TRIÂNGULO OBTUSÂNGULO");
+				System.out.println("TRIÃ‚NGULO OBTUSÃ‚NGULO");
 
 			else
-				System.out.println("TRIÂNGULO ACUTÂNGULO");
+				System.out.println("TRIÃ‚NGULO ACUTÃ‚NGULO");
 
 			if (a == b && a == c)
-				System.out.println("TRIÂNGULO EQUILÁTERO");
+				System.out.println("TRIÃ‚NGULO EQUILÃTERO");
 
 			else if (a == b || a == c || b == c)
-				System.out.println("TRIÂNGULO ISÓSCELES");
+				System.out.println("TRIÃ‚NGULO ISÃ“SCELES");
 		}
+		
+		in.close();
 	}
 }

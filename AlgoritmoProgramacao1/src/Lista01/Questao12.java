@@ -9,15 +9,16 @@ public class Questao12 {
 		System.out.print("Insira o valor que representa o lado do quadrado: ");
 		double l = in.nextDouble();
 
-		System.out.print("Insira o valor que representa o raio do círculo: ");
+		System.out.print("Insira o valor que representa o raio do cÃ­rculo: ");
 		double r = in.nextDouble();
 
 		if (l * l > Math.PI * (r * r))
-			System.out.println("O quadrado tem a maior área");
+			System.out.println("O quadrado tem a maior Ã¡rea");
 		else if (l * l < Math.PI * (r * r))
-			System.out.println("O círculo tem a maior área");
+			System.out.println("O cÃ­rculo tem a maior Ã¡rea");
 		else
-			System.out.println("Ambos possuem áreas iguais");
+			System.out.println("Ambos possuem Ã¡reas iguais");
 
+		in.close();
 	}
 }

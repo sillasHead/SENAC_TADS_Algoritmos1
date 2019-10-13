@@ -11,7 +11,7 @@ public class Questao17 {
 		System.out.println("Para conseguir, insira 4 valores inteiros A, B, C e D.");
 		System.out.println("Se B for maior do que C e se D for maior do que A, ");
 		System.out.println("e a soma de C com D for maior que a soma de A e B e se C e D, ");
-		System.out.println("ambos, forem positivos e se a vari·vel A for par, os valores ser„o aceitos." + ls);
+		System.out.println("ambos, forem positivos e se a vari√°vel A for par, os valores ser√£o aceitos." + ls);
 
 		System.out.print("A = ");
 		int a = in.nextInt();
@@ -25,7 +25,9 @@ public class Questao17 {
 		if (b > c && d > a && (c + d) > (a + b) && c > 0 && d > 0 && (a % 2 == 0)) {
 			System.out.println(ls + "Valores aceitos");
 		} else {
-			System.out.println(ls + "Valores n„o aceitos");
+			System.out.println(ls + "Valores n√£o aceitos");
 		}
+		
+		in.close();
 	}
 }

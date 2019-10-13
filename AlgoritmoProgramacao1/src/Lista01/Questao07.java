@@ -16,6 +16,8 @@ public class Questao07 {
 		
 		double hipot = Math.sqrt(cat1*cat1 + cat2*cat2);
 		
-		System.out.print("A hipotenusa desse tri‚ngulo È igual a " + hipot);
+		System.out.print("A hipotenusa desse tri√¢ngulo √© igual a " + hipot);
+		
+		in.close();
 	}
 }

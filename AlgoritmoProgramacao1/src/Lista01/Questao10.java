@@ -7,18 +7,20 @@ public class Questao10 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.println("Quer saber qual será o seu salário ao final do mês? Eu calculo para você!" + ls);
+		System.out.println("Quer saber qual serÃ¡ o seu salÃ¡rio ao final do mÃªs? Eu calculo para vocÃª!" + ls);
 
-		System.out.println("Qual é o seu nome?");
+		System.out.println("Qual Ã© o seu nome?");
 		String nome = in.nextLine();
 
-		System.out.print(ls + "Qual é o seu salário fixo?" + ls + "R$");
+		System.out.print(ls + "Qual Ã© o seu salÃ¡rio fixo?" + ls + "R$");
 		double salario = in.nextDouble();
 
-		System.out.print(ls + "Qual foi o total de vendas (em dinheiro) que você efetuou no mês?" + ls + "R$");
+		System.out.print(ls + "Qual foi o total de vendas (em dinheiro) que vocÃª efetuou no mÃªs?" + ls + "R$");
 		double totalVendas = in.nextDouble();
 
 		System.out.println(ls + nome + ", confira o valor total a receber:");
 		System.out.printf("R$" + "%.2f", (salario + totalVendas * 0.15));
+		
+		in.close();
 	}
 }

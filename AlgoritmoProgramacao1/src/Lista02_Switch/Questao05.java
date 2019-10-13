@@ -6,7 +6,7 @@ public class Questao05 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("Digite um mês: ");
+		System.out.print("Digite um mÃªs: ");
 		String mes = in.next().toLowerCase();
 
 		switch (mes) {
@@ -18,7 +18,7 @@ public class Questao05 {
 			System.out.print("Alta temporada");
 			break;
 
-		case "março":
+		case "marÃ§o":
 		case "abril":
 		case "maio":
 		case "agosto":
@@ -29,7 +29,9 @@ public class Questao05 {
 			break;
 
 		default:
-			System.out.print("Quê?");
+			System.out.print("QuÃª?");
 		}
+		
+		in.close();
 	}
 }

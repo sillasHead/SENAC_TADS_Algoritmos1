@@ -7,12 +7,14 @@ public class Questao02 {
 		Scanner in = new Scanner(System.in);
 		String ls = System.getProperty("line.separator");
 
-		System.out.print("Insira um número: ");
+		System.out.print("Insira um nÃºmero: ");
 		double n1 = in.nextDouble();
 
 		System.out.print("Insira o valor do expoente: ");
 		double n2 = in.nextDouble();
 
-		System.out.print(ls + n1 + " elevado a " + n2 + " é igual a " + Math.pow(n1, n2));
+		System.out.print(ls + n1 + " elevado a " + n2 + " Ã© igual a " + Math.pow(n1, n2));
+
+		in.close();
 	}
 }

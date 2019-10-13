@@ -14,7 +14,7 @@ public class BalancoTrimestral {
 		
 		int mediaMensal = gastosTrimestre/3;
 		
-		System.out.print("Valor da média mensal: " + mediaMensal);
+		System.out.print("Valor da mÃ©dia mensal: " + mediaMensal);
 		
 	}
 
