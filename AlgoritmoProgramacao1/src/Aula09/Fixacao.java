@@ -12,8 +12,10 @@ public class Fixacao {
 		
 	   	
 	   	for(int i = 0; i < n; i++) {
-	   		System.out.print("Digite um n�mero: ");
+	   		System.out.print("Digite um n锟絤ero: ");
 	   		v[i] = in.nextInt();
 	   	}		
+	   	
+	   	in.close();
 	}
 }

@@ -1,35 +1,36 @@
-package Aula09;
+/*package Aula09;
 
 import java.util.Scanner;
 
-public class Questao02 {
+public class Questao01 {
+	static Scanner in = new Scanner(System.in);
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		int[] novoVetor = copiaVetor();
+		int cont = 0;
 		
-		System.out.println("Qual será o tamanho dos vetores?");
-		int[] vetor1 = new int[in.nextInt()];
+		System.out.println("\nVetor copiado:");
 		
-		for (int i = 0; i < vetor1.length; i++) {
-			vetor1[i] = i;
+		for (int i : novoVetor) {
+			System.out.println("vetor2[" + cont++ + "] = " + i);
 		}
 		
-		int[] vetor2 = vetor1;
-		
-		int[] vetor3 = somaVetores(vetor1, vetor2);
-		
-		System.out.println("Seguem anexas as somas dos dois vetores");
-		
-		for(int i = 0; i < vetor1.length; i++) {
-			System.out.println("v1[" + i + "] + v2[" + i + "] = " + vetor3[i]);
-		}
+		in.close();
 	}
 	
-	static int[] somaVetores(int[] vetor1, int[] vetor2) {
-		int[] vetor3 = vetor1;
+	static int[] copiaVetor() {
+		System.out.print("Insira o tamanho do vetor[]: ");
+		int[] novoVetor = new int[in.nextInt()];
 		
-		for(int i = 0; i < vetor1.length; i++)
+		for (int i = 0; i < novoVetor.length; i++) {
+			System.out.printf("Insira o valor do %dï¿½ item: ", i + 1);
+			novoVetor[i] = in.nextInt();
+		}
+		return novoVetor;
+	}
+
 			vetor3[i] += vetor2[i];
-		
+				
 		return vetor3;
 	}
 }
+*/

@@ -2,10 +2,10 @@ package Lista05_Arrays;
 
 public class Questao04 {
 	public static void main(String[] args) {
-		Funcoes funcoes = new Funcoes();
-		double[] vetor = funcoes.instanciarVetorDouble();
+		Funcoes f = new Funcoes();
+		double[] vetor = f.instanciarVetorDouble();
 		
-		funcoes.exibirVetorDouble(vetor);
+		f.exibirVetorDouble(vetor);
 		
 		double menorN = vetor[0]; int indice = 0;
 		

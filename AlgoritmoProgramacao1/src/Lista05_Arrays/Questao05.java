@@ -2,11 +2,11 @@ package Lista05_Arrays;
 
 public class Questao05 {
 	public static void main(String[] args) {
-		Funcoes funcoes = new Funcoes();
+		Funcoes f = new Funcoes();
 		
-		int[] vetor = funcoes.instanciarVetorInt();
+		int[] vetor = f.instanciarVetorInt();
 		
-		funcoes.exibirVetorInt(vetor);
+		f.exibirVetorInt(vetor);
 		
 		double media = vetor[0];
 		
@@ -14,6 +14,6 @@ public class Questao05 {
 			media += vetor[i];
 		}
 		
-		System.out.print("Média dos elementos do vetor: " + media/vetor.length);
+		System.out.print("Media dos elementos do vetor: " + media/vetor.length);
 	}
 }
