@@ -10,6 +10,7 @@ public class Questao08 {
 		int numero = r.nextInt(100) + 1;
 		boolean presente = false;
 		
+		
 		System.out.println("Número aleatório: " + numero + "\n");
 		
 		f.exibirVetorInt(v);

@@ -18,3 +18,4 @@ public class Questao02 {
 		System.out.printf("Soma de todos os elementos do vetor: %f", soma);
 	}
 }
+

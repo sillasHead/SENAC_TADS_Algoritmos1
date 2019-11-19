@@ -17,3 +17,4 @@ public class Questao05 {
 		System.out.println("Media dos elementos do vetor: " + media);
 	}
 }
+

@@ -15,3 +15,4 @@ public class Questao06 {
 		System.out.println("Produto dos elementos do vetor: " + produto);
 	}
 }
+

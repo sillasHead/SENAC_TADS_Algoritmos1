@@ -17,3 +17,4 @@ public class Questao04 {
 		System.out.println("Menor elemento do vetor: " + menorN);
 	}
 }
+
