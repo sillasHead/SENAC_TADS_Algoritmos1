@@ -1,21 +1,21 @@
 package Lista05_Arrays;
 
+import java.util.Random;
+
 public class Questao03 {
 	public static void main(String[] args) {
 		Funcoes f = new Funcoes();
-		int maiorN = 0; int indice = 0;
-		int[] vetor = f.instanciarVetorInt();
+		int[] v = f.criarVetorInt();
+		int maiorN = v[0];
 		
-		f.exibirVetorInt(vetor);
+		f.exibirVetorInt(v);
 		
-		for(int i = 0; i < vetor.length; i++) {
-			if (vetor[i] > maiorN) {
-				maiorN = vetor[i];
-				indice = i;
+		for(int i = 1; i < v.length; i++) {
+			if(v[i] > maiorN) {
+				maiorN = v[i];
 			}
-			
 		}
 		
-		System.out.printf("Maior elemento do vetor\n-> vetor[%d]: %d", indice, maiorN);
+		System.out.println("Maior elemento do vetor: " + maiorN);
 	}
 }

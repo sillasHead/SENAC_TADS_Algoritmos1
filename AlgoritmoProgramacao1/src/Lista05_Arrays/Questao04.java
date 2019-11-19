@@ -3,20 +3,17 @@ package Lista05_Arrays;
 public class Questao04 {
 	public static void main(String[] args) {
 		Funcoes f = new Funcoes();
-		double[] vetor = f.instanciarVetorDouble();
+		double[] v = f.criarVetorDouble();
+		double menorN = v[0];
 		
-		f.exibirVetorDouble(vetor);
+		f.exibirVetorDouble(v);
 		
-		double menorN = vetor[0]; int indice = 0;
-		
-		for(int i = 1; i < vetor.length; i++) {
-			if (vetor[i] < menorN) {
-				menorN = vetor[i];
-				indice = i;
+		for(int i = 1; i < v.length; i++) {
+			if(v[i] < menorN) {
+				menorN = v[i];
 			}
-			
 		}
 		
-		System.out.printf("Menor elemento do vetor\n-> vetor[%d]: %f", indice, menorN);
+		System.out.println("Menor elemento do vetor: " + menorN);
 	}
 }
