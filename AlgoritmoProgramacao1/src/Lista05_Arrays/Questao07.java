@@ -1,13 +1,23 @@
 package Lista05_Arrays;
 
-import java.util.Scanner;
+import java.util.Random;
 
 public class Questao07 {
 	public static void main(String[] args) {
-		Funcoes funcoes = new Funcoes();
-		Scanner in = new Scanner(System.in);
-		System.out.print("Insira um número inteiro\nN = ");
-		int n = in.nextInt();
+		Funcoes f = new Funcoes();
+		Random r = new Random();
+		int[] v = f.criarVetorInt();
+		int numero = r.nextInt(100) + 1;
 		
+		System.out.println("Numero aleatorio: " + numero + "\n");
+		
+		f.exibirVetorInt(v);
+		
+		System.out.println("Resultado das multiplicacoes de todos os elementos do vetor por " + numero + ":\n");
+		
+		for (int i = 0; i < v.length; i++) {
+			System.out.printf("%d * %d = %d\n", v[i], numero, v[i] * numero);
+		}	
 	}
 }
+

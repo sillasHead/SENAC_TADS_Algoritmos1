@@ -2,16 +2,17 @@ package Lista05_Arrays;
 
 public class Questao06 {
 	public static void main(String[] args) {
-		Funcoes funcoes = new Funcoes();
-		int produto = 1; 
-		int[] vetor = funcoes.instanciarVetorInt();
+		Funcoes f = new Funcoes();
+		int[] v = f.criarVetorInt();
+		int produto = v[0];
 		
-		funcoes.exibirVetorInt(vetor);
+		f.exibirVetorInt(v);
 		
-		for (int i = 0; i < vetor.length; i++) {
-			produto *= vetor[i];
+		for(int i = 1; i < v.length; i++) {
+			produto *= v[i];
 		}
 		
 		System.out.println("Produto dos elementos do vetor: " + produto);
 	}
 }
+
