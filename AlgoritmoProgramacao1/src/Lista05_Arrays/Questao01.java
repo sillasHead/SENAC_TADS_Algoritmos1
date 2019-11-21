@@ -5,7 +5,7 @@ public class Questao01 {
 		Funcoes f = new Funcoes();
 		
 		int[] v = f.criarVetorInt();
-		f.exibirVetorInt(v);
+		f.exibirVetorInt(v, "");
 	}
 }
 

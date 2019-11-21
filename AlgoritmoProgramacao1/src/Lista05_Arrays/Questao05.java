@@ -6,7 +6,7 @@ public class Questao05 {
 		int[] v = f.criarVetorInt();
 		double media = v[0];
 		
-		f.exibirVetorInt(v);
+		f.exibirVetorInt(v, "");
 		
 		for(int i = 1; i < v.length; i++) {
 			media += v[i];

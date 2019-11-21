@@ -8,20 +8,14 @@ public class Questao09 {
 		int[] b = a;
 		int[] c = new int[a.length];
 		
-		System.out.println("Vetor A:");
+		f.exibirVetorInt(a, "A");
 		
-		f.exibirVetorInt(a);
-		
-		System.out.println("\nVetor B:");
-		
-		f.exibirVetorInt(b);
+		f.exibirVetorInt(b, "B");
 		
 		for(int i = 0; i < a.length; i++) {
 			c[i] = a[i] * b[i];
 		}
 		
-		System.out.println("\nVetor C:");
-		
-		f.exibirVetorInt(c);		
+		f.exibirVetorInt(c, "C");		
 	}
 }

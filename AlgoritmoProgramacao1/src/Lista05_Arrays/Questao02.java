@@ -7,7 +7,7 @@ public class Questao02 {
 		double[] v = f.criarVetorDouble();
 		double soma = 0;
 
-		f.exibirVetorDouble(v);
+		f.exibirVetorDouble(v, "");
 
 		for (int i = 0; i < v.length; i++) {
 			soma += v[i];

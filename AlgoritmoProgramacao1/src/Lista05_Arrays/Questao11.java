@@ -8,7 +8,7 @@ public class Questao11 {
 		Random r = new Random();
 		
 		double[] v = f.criarVetorDouble();
-		f.exibirVetorDouble(v);
+		f.exibirVetorDouble(v, "");
 		
 		double numero = 0;
 		
@@ -18,7 +18,7 @@ public class Questao11 {
 		
 		numero /= v.length;
 		
-		System.out.println("números maiores do que a média dos elementos que estão nas posições pares do vetor.\n");
+		System.out.println("numeros maiores do que a media dos elementos que estao nas posicoes pares do vetor.\n");
 		for(int i = 0; i < v.length; i++) {
 			if(v[i] > numero && i % 2 == 0) {
 				System.out.println(v[i]);

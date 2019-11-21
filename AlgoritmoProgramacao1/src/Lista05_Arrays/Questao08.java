@@ -12,7 +12,7 @@ public class Questao08 {
 		
 		System.out.println("Número aleatório: " + numero + "\n");
 		
-		f.exibirVetorInt(v);
+		f.exibirVetorInt(v, "");
 		
 		for(int i = 0; i < v.length; i++) {
 			if(v[i] == numero) {

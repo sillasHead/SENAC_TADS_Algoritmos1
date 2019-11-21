@@ -5,8 +5,8 @@ import java.util.Random;
 public class Funcoes{
 	Random r = new Random();
 	
-    public void exibirVetorInt(int[] vetor){
-        System.out.println("Elementos do vetor:\n");
+    public void exibirVetorInt(int[] vetor, String nome){
+        System.out.println("Elementos do vetor "+ nome +":\n");
 	
 		for (int i = 0; i < vetor.length; i++) {
 			System.out.printf("vetor[%d] = %d\n", i, vetor[i]);
@@ -14,8 +14,8 @@ public class Funcoes{
 		System.out.println();
     }
 
-    public void exibirVetorDouble(double[] vetor){
-        System.out.println("Elementos do vetor:\n");
+    public void exibirVetorDouble(double[] vetor, String nome){
+    	System.out.println("Elementos do vetor "+ nome +":\n");
 	
 		for (int i = 0; i < vetor.length; i++) {
 			System.out.printf("vetor[%d] = %f\n", i, vetor[i]);

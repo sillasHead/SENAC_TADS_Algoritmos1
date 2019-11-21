@@ -6,7 +6,7 @@ public class Questao06 {
 		int[] v = f.criarVetorInt();
 		int produto = v[0];
 		
-		f.exibirVetorInt(v);
+		f.exibirVetorInt(v, "");
 		
 		for(int i = 1; i < v.length; i++) {
 			produto *= v[i];

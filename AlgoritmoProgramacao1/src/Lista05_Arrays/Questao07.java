@@ -10,7 +10,7 @@ public class Questao07 {
 		int numero = r.nextInt(100) + 1;
 		System.out.println("Numero aleatorio: " + numero + "\n");
 		
-		f.exibirVetorInt(v);
+		f.exibirVetorInt(v, "");
 		
 		System.out.println("Resultado das multiplicacoes de todos os elementos do vetor por " + numero + ":\n");
 		

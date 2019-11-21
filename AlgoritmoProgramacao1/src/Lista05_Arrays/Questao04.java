@@ -6,7 +6,7 @@ public class Questao04 {
 		double[] v = f.criarVetorDouble();
 		double menorN = v[0];
 		
-		f.exibirVetorDouble(v);
+		f.exibirVetorDouble(v, "");
 		
 		for(int i = 1; i < v.length; i++) {
 			if(v[i] < menorN) {

@@ -12,7 +12,7 @@ public class Questao10 {
 		double n = r.nextDouble() * 100;
 		System.out.println("Numero real aleatorio: " + n + "\n");
 		
-		f.exibirVetorDouble(v);
+		f.exibirVetorDouble(v, "");
 		
 		System.out.println("Multiplicacao dos elementos de posicao impar pelo numero real aleatorio");
 		
