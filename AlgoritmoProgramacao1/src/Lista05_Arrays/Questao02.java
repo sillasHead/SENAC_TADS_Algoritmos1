@@ -1,7 +1,5 @@
 package Lista05_Arrays;
 
-import java.util.Random;
-
 public class Questao02 {
 	public static void main(String[] args) {
 		Funcoes f = new Funcoes();

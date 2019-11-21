@@ -4,7 +4,7 @@ public class Questao05 {
 	public static void main(String[] args) {
 		Funcoes f = new Funcoes();
 		int[] v = f.criarVetorInt();
-		int media = v[0];
+		double media = v[0];
 		
 		f.exibirVetorInt(v);
 		
@@ -12,7 +12,7 @@ public class Questao05 {
 			media += v[i];
 		}
 		
-		media /= v.length;
+		media /= (double)v.length;
 		
 		System.out.println("Media dos elementos do vetor: " + media);
 	}

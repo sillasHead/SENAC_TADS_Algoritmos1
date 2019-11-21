@@ -8,8 +8,7 @@ public class Questao07 {
 		Random r = new Random();
 		int[] v = f.criarVetorInt();
 		int numero = r.nextInt(100) + 1;
-		
-		System.out.println("Número aleatório: " + numero + "\n");
+		System.out.println("Numero aleatorio: " + numero + "\n");
 		
 		f.exibirVetorInt(v);
 		

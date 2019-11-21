@@ -10,13 +10,14 @@ public class Questao08 {
 		int numero = r.nextInt(100) + 1;
 		boolean presente = false;
 		
-		
 		System.out.println("Número aleatório: " + numero + "\n");
 		
 		f.exibirVetorInt(v);
 		
 		for(int i = 0; i < v.length; i++) {
-			presente = v[i] == numero ? true : false;
+			if(v[i] == numero) {
+				presente = true;
+			}
 		}
 		
 		if(presente) {
